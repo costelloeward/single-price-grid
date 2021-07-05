@@ -4,7 +4,9 @@ body{
   font-family: Karla,sans-serif;
   padding: 2rem;
 }
-
+main{
+  max-width: 40rem;
+}
 h1{
   color: hsl(179, 62%, 43%);
 }
@@ -25,13 +27,15 @@ section{
 background-color: white;
 border-radius: 0.5rem 0.5rem 0 0;
 color: hsl(218, 22%, 67%);
+
 }
 .monthly{
   color: white;
+
 }
 .dollars{
   font-size: 2rem;
-  font-weight: 700;
+
 }
 
 .per{
@@ -39,10 +43,6 @@ color: hsl(218, 22%, 67%);
   vertical-align: super;
 }
 
-.why{
-  border-radius: 0 0 0.5rem 0.5rem;
-  opacity:0.7;
-}
 button{
   background-color:hsl(71, 73%, 54%);
   border-color:hsl(71, 73%, 54%);
@@ -57,6 +57,11 @@ button{
 button:focus{
   background-color: white;
   color:hsl(179, 62%, 43%);
+}
+
+.why{
+  border-radius: 0 0 0.5rem 0.5rem;
+  opacity:0.7;
 }
 
 ul{
@@ -85,6 +90,7 @@ Designs created to mobile and desktop widths
   }
   main{
     display:grid;
+
   }
   section{
     padding: 2rem 3rem;
