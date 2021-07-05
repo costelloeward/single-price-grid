@@ -75,12 +75,13 @@ footer{
 }
 
 /* Styling for different screen sizes
-Designs created to these widths
+Designs created to mobile and desktop widths
 - Mobile: 375px = 23.5 rem
-- Desktop: 1440px = 90rem */
-@media(min-width: 90rem){
+- Desktop: 1440px = 90rem  LARGE!
+- Medium: 1024px = 64rem*/
+@media(min-width: 64rem){
   body{
-    padding: 8rem 27rem;
+    padding: 8rem 12rem;
   }
   main{
     display:grid;
@@ -98,5 +99,12 @@ Designs created to these widths
   .why{
     border-radius: 0 0 0.5rem 0;
     grid-row: 2;
+  }
+  button{
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: white;
+    color:hsl(179, 62%, 43%);
   }
 }
