@@ -26,7 +26,7 @@ h3 {
 
 section {
   background-color: hsl(179, 62%, 43%);
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 .join {
@@ -56,8 +56,9 @@ button {
   color: white;
   font-family: Karla, sans-serif;
   font-weight: 700;
+  max-width: 15rem;
   padding: 1rem;
-  /* width: -webkit-fill-available; */
+  width: -webkit-fill-available;
 }
 
 button:focus {
